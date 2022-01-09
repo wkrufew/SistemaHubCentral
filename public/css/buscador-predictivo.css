@@ -1,0 +1,41 @@
+.tt-query {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+       -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+color: #999
+}
+
+.tt-menu {    /* used to be tt-dropdown-menu in older versions */
+width: auto;
+margin-top: 4px;
+padding: 4px 0;
+background-color: #941b94d7;
+border: 1px solid #941b94d7;
+color: #ffff;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+    border-radius: 10px;
+-webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+-moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+cursor: pointer;
+}
+
+.tt-suggestion {
+padding: 3px 20px;
+line-height: 24px;
+}
+
+.tt-suggestion.tt-cursor,.tt-suggestion:hover {
+color: #941b94;
+border-radius: 20px;
+background-color: rgba(255, 255, 255, 0.823);
+
+}
+
+.tt-suggestion p {
+margin: 0;
+}
